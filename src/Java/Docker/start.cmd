@@ -1,0 +1,1 @@
+docker-compose -p snezhko222-java up -d

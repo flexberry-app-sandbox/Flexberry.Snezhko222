@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-snezhko222-детали-e",
+  "editForm": "i-i-s-snezhko222-детали-e",
+  "external": false,
+  "caption": "Детали",
+  "name": "IISSnezhko222ДеталиL",
+  "className": "ДеталиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-snezhko222-детали",
+      "modelProjection": "ДеталиL"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-snezhko222-услуга-e",
+  "editForm": "i-i-s-snezhko222-услуга-e",
+  "external": false,
+  "caption": "Услуга",
+  "name": "IISSnezhko222УслугаL",
+  "className": "УслугаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-snezhko222-услуга",
+      "modelProjection": "УслугаL"
+    }
+  ]
+}

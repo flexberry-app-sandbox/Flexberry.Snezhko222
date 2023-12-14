@@ -1,0 +1,64 @@
+﻿{
+  "applicationCaption": "Snezhko222",
+  "applicationTitle": "Snezhko222",
+  "items": [
+    {
+      "link": null,
+      "menuName": "snezhko222",
+      "caption": "Snezhko222",
+      "title": "Snezhko222",
+      "children": [
+        {
+          "link": "i-i-s-snezhko222-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-snezhko222-заказ-l",
+          "menuName": null,
+          "caption": "Заказ",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-snezhko222-детали-l",
+          "menuName": null,
+          "caption": "Детали",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-snezhko222-клиенты-l",
+          "menuName": null,
+          "caption": "Клиенты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-snezhko222-услуга-l",
+          "menuName": null,
+          "caption": "Услуга",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-snezhko222-бокс-l",
+          "menuName": null,
+          "caption": "Бокс",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-snezhko222-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
