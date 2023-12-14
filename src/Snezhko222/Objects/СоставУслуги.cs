@@ -30,10 +30,10 @@ namespace IIS.Snezhko222
     [Caption("Состав услуги")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("СоставУслугиE", new string[] {
+            "Детали.Наименование as \'Наименование\'",
             "Количество as \'Количество\'",
             "Единицы as \'Единицы\'",
-            "Детали as \'Детали\'",
-            "Детали.Наименование as \'Наименование\'"}, Hidden=new string[] {
+            "Детали as \'Детали\'"}, Hidden=new string[] {
             "Детали.Наименование"})]
     [MasterViewDefineAttribute("СоставУслугиE", "Детали", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Наименование")]
     public class СоставУслуги : ICSSoft.STORMNET.DataObject

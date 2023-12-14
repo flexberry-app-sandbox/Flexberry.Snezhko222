@@ -56,11 +56,11 @@ export let defineProjections = function (modelClass) {
     цена: attr('Цена', { index: 2 }),
     длительностьМин: attr('Длительность мин', { index: 3 }),
     составУслуги: hasMany('i-i-s-snezhko222-состав-услуги', 'Состав услуги', {
-      количество: attr('Количество', { index: 0 }),
-      единицы: attr('Единицы', { index: 1 }),
-      детали: belongsTo('i-i-s-snezhko222-детали', 'Детали', {
-        наименование: attr('Наименование', { index: 3, hidden: true })
-      }, { index: 2, displayMemberPath: 'наименование' })
+      детали: belongsTo('i-i-s-snezhko222-детали', 'Наименование', {
+        наименование: attr('Наименование', { index: 0, hidden: true })
+      }, { index: 3, hidden: true }),
+      количество: attr('Количество', { index: 1 }),
+      единицы: attr('Единицы', { index: 2 })
     })
   });
 

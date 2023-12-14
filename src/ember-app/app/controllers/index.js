@@ -16,48 +16,79 @@ export default Controller.extend({
         }, {
           link: null,
           icon: 'list',
-          caption: i18n.t('forms.application.sitemap.snezhko222.caption'),
-          title: i18n.t('forms.application.sitemap.snezhko222.title'),
+          caption: i18n.t('forms.application.sitemap.клиенты.caption'),
+          title: i18n.t('forms.application.sitemap.клиенты.title'),
           children: [{
-            link: 'i-i-s-snezhko222-должности-l',
-            caption: i18n.t('forms.application.sitemap.snezhko222.i-i-s-snezhko222-должности-l.caption'),
-            title: i18n.t('forms.application.sitemap.snezhko222.i-i-s-snezhko222-должности-l.title'),
-            icon: 'folder open',
+            link: 'i-i-s-snezhko222-клиенты-l',
+            caption: i18n.t('forms.application.sitemap.клиенты.i-i-s-snezhko222-клиенты-l.caption'),
+            title: i18n.t('forms.application.sitemap.клиенты.i-i-s-snezhko222-клиенты-l.title'),
+            icon: 'briefcase',
             children: null
-          }, {
-            link: 'i-i-s-snezhko222-заказ-l',
-            caption: i18n.t('forms.application.sitemap.snezhko222.i-i-s-snezhko222-заказ-l.caption'),
-            title: i18n.t('forms.application.sitemap.snezhko222.i-i-s-snezhko222-заказ-l.title'),
+          }]
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.справочник-услуг.caption'),
+          title: i18n.t('forms.application.sitemap.справочник-услуг.title'),
+          children: [{
+            link: 'i-i-s-snezhko222-услуга-l',
+            caption: i18n.t('forms.application.sitemap.справочник-услуг.i-i-s-snezhko222-услуга-l.caption'),
+            title: i18n.t('forms.application.sitemap.справочник-услуг.i-i-s-snezhko222-услуга-l.title'),
+            icon: 'building',
             children: null
-          }, {
-            link: 'i-i-s-snezhko222-детали-l',
-            caption: i18n.t('forms.application.sitemap.snezhko222.i-i-s-snezhko222-детали-l.caption'),
-            title: i18n.t('forms.application.sitemap.snezhko222.i-i-s-snezhko222-детали-l.title'),
+          }]
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.сотрудники.caption'),
+          title: i18n.t('forms.application.sitemap.сотрудники.title'),
+          children: [{
+            link: 'i-i-s-snezhko222-сотрудники-l',
+            caption: i18n.t('forms.application.sitemap.сотрудники.i-i-s-snezhko222-сотрудники-l.caption'),
+            title: i18n.t('forms.application.sitemap.сотрудники.i-i-s-snezhko222-сотрудники-l.title'),
             icon: 'tags',
             children: null
           }, {
-            link: 'i-i-s-snezhko222-клиенты-l',
-            caption: i18n.t('forms.application.sitemap.snezhko222.i-i-s-snezhko222-клиенты-l.caption'),
-            title: i18n.t('forms.application.sitemap.snezhko222.i-i-s-snezhko222-клиенты-l.title'),
-            icon: 'folder',
+            link: 'i-i-s-snezhko222-должности-l',
+            caption: i18n.t('forms.application.sitemap.сотрудники.i-i-s-snezhko222-должности-l.caption'),
+            title: i18n.t('forms.application.sitemap.сотрудники.i-i-s-snezhko222-должности-l.title'),
+            icon: 'calendar',
             children: null
-          }, {
-            link: 'i-i-s-snezhko222-услуга-l',
-            caption: i18n.t('forms.application.sitemap.snezhko222.i-i-s-snezhko222-услуга-l.caption'),
-            title: i18n.t('forms.application.sitemap.snezhko222.i-i-s-snezhko222-услуга-l.title'),
-            icon: 'tasks',
-            children: null
-          }, {
-            link: 'i-i-s-snezhko222-бокс-l',
-            caption: i18n.t('forms.application.sitemap.snezhko222.i-i-s-snezhko222-бокс-l.caption'),
-            title: i18n.t('forms.application.sitemap.snezhko222.i-i-s-snezhko222-бокс-l.title'),
-            icon: 'briefcase',
-            children: null
-          }, {
-            link: 'i-i-s-snezhko222-сотрудники-l',
-            caption: i18n.t('forms.application.sitemap.snezhko222.i-i-s-snezhko222-сотрудники-l.caption'),
-            title: i18n.t('forms.application.sitemap.snezhko222.i-i-s-snezhko222-сотрудники-l.title'),
+          }]
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.заказы.caption'),
+          title: i18n.t('forms.application.sitemap.заказы.title'),
+          children: [{
+            link: 'i-i-s-snezhko222-заказ-l',
+            caption: i18n.t('forms.application.sitemap.заказы.i-i-s-snezhko222-заказ-l.caption'),
+            title: i18n.t('forms.application.sitemap.заказы.i-i-s-snezhko222-заказ-l.title'),
             icon: 'address card',
+            children: null
+          }]
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.справочник-детали.caption'),
+          title: i18n.t('forms.application.sitemap.справочник-детали.title'),
+          children: [{
+            link: 'i-i-s-snezhko222-детали-l',
+            caption: i18n.t('forms.application.sitemap.справочник-детали.i-i-s-snezhko222-детали-l.caption'),
+            title: i18n.t('forms.application.sitemap.справочник-детали.i-i-s-snezhko222-детали-l.title'),
+            icon: 'chart bar',
+            children: null
+          }]
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.бокс.caption'),
+          title: i18n.t('forms.application.sitemap.бокс.title'),
+          children: [{
+            link: 'i-i-s-snezhko222-бокс-l',
+            caption: i18n.t('forms.application.sitemap.бокс.i-i-s-snezhko222-бокс-l.caption'),
+            title: i18n.t('forms.application.sitemap.бокс.i-i-s-snezhko222-бокс-l.title'),
+            icon: 'chart line',
             children: null
           }]
         }

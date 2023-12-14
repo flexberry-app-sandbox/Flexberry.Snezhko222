@@ -41,17 +41,17 @@ namespace IIS.Snezhko222
         [Caption("Гр")]
         2,
         
-        // *** Start programmer edit section *** (Единицы.3 CustomAttributes)
-
-        // *** End programmer edit section *** (Единицы.3 CustomAttributes)
-        [Caption("Л")]
-        3,
-        
         // *** Start programmer edit section *** (Единицы.4 CustomAttributes)
 
         // *** End programmer edit section *** (Единицы.4 CustomAttributes)
         [Caption("Мл")]
         4,
+        
+        // *** Start programmer edit section *** (Единицы.3 CustomAttributes)
+
+        // *** End programmer edit section *** (Единицы.3 CustomAttributes)
+        [Caption("Л")]
+        3,
         
         // *** Start programmer edit section *** (Единицы.5 CustomAttributes)
 

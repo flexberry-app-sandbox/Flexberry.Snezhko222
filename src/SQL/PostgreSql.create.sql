@@ -17,7 +17,7 @@ CREATE TABLE Заказ (
  КодЗаказа INT NULL,
  Комментарий VARCHAR(255) NULL,
  Сумма DOUBLE PRECISION NULL,
- ТипОплаты VARCHAR(1) NULL,
+ ТипОплаты VARCHAR(11) NULL,
  Бокс UUID NOT NULL,
  Клиенты UUID NOT NULL,
  Сотрудники UUID NOT NULL,
@@ -37,7 +37,7 @@ CREATE TABLE Автомобиль (
  primaryKey UUID NOT NULL,
  ГосНомер VARCHAR(255) NULL,
  Марка VARCHAR(255) NULL,
- ТипАвтомобиля VARCHAR(1) NULL,
+ ТипАвтомобиля VARCHAR(8) NULL,
  Цвет VARCHAR(255) NULL,
  Клиенты UUID NOT NULL,
  PRIMARY KEY (primaryKey));
@@ -76,7 +76,7 @@ CREATE TABLE Бокс (
  primaryKey UUID NOT NULL,
  НомерБокса VARCHAR(255) NULL,
  Площадь INT NULL,
- ТипАвтомобиля VARCHAR(1) NULL,
+ ТипАвтомобиля VARCHAR(8) NULL,
  PRIMARY KEY (primaryKey));
 
 

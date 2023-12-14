@@ -106,6 +106,58 @@ $.extend(true, translations, {
           caption: 'Главная',
           title: ''
         },
+        клиенты: {
+          caption: 'Клиенты',
+          title: 'Клиенты',
+          'i-i-s-snezhko222-клиенты-l': {
+            caption: 'Клиенты',
+            title: 'Клиенты'
+          }
+        },
+        'справочник-услуг': {
+          caption: 'Справочник услуг',
+          title: 'Справочник услуг',
+          'i-i-s-snezhko222-услуга-l': {
+            caption: 'Услуга',
+            title: 'Услуга'
+          }
+        },
+        сотрудники: {
+          caption: 'Сотрудники',
+          title: 'Сотрудники',
+          'i-i-s-snezhko222-сотрудники-l': {
+            caption: 'Сотрудники',
+            title: 'Сотрудники'
+          },
+          'i-i-s-snezhko222-должности-l': {
+            caption: 'Должности',
+            title: 'Должности'
+          }
+        },
+        заказы: {
+          caption: 'Заказы',
+          title: 'Заказы',
+          'i-i-s-snezhko222-заказ-l': {
+            caption: 'Заказ',
+            title: 'Заказ'
+          }
+        },
+        'справочник-детали': {
+          caption: 'Справочник детали',
+          title: 'Справочник детали',
+          'i-i-s-snezhko222-детали-l': {
+            caption: 'Детали',
+            title: 'Детали'
+          }
+        },
+        бокс: {
+          caption: 'Бокс',
+          title: 'Бокс',
+          'i-i-s-snezhko222-бокс-l': {
+            caption: 'Бокс',
+            title: 'Бокс'
+          }
+        },
         snezhko222: {
           caption: 'Snezhko222',
           title: 'Snezhko222',

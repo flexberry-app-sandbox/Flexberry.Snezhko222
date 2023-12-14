@@ -95,7 +95,7 @@ export let defineProjections = function (modelClass) {
     типОплаты: attr('Тип оплаты', { index: 3 }),
     комментарий: attr('Комментарий', { index: 4 }),
     сумма: attr('Сумма', { index: 5 }),
-    клиенты: belongsTo('i-i-s-snezhko222-клиенты', 'Клиенты', {
+    клиенты: belongsTo('i-i-s-snezhko222-клиенты', 'Клиент', {
       фамилия: attr('Фамилия', { index: 7, hidden: true })
     }, { index: 6, displayMemberPath: 'фамилия' }),
     сотрудники: belongsTo('i-i-s-snezhko222-сотрудники', 'Сотрудники', {

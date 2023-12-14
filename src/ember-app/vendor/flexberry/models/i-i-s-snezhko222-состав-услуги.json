@@ -51,33 +51,33 @@
           "name": "количество",
           "caption": "Количество",
           "hidden": false,
-          "index": 0
+          "index": 1
         },
         {
           "name": "единицы",
           "caption": "Единицы",
           "hidden": false,
-          "index": 1
+          "index": 2
         }
       ],
       "belongsTo": [
         {
-          "lookupValue": "Наименование",
-          "lookupValueField": "наименование",
+          "lookupValue": null,
+          "lookupValueField": null,
           "relationName": "Детали",
           "belongsTo": [],
-          "hidden": false,
+          "hidden": true,
           "attrs": [
             {
               "name": "наименование",
               "caption": "Наименование",
               "hidden": true,
-              "index": 3
+              "index": 0
             }
           ],
-          "index": 2,
-          "type": "standard",
-          "caption": "Детали",
+          "index": 3,
+          "type": "default",
+          "caption": "Наименование",
           "name": "детали",
           "relatedTo": "i-i-s-snezhko222-детали",
           "inverse": null

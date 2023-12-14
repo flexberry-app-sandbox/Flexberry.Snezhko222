@@ -150,7 +150,7 @@
           ],
           "index": 6,
           "type": "standard",
-          "caption": "Клиенты",
+          "caption": "Клиент",
           "name": "клиенты",
           "relatedTo": "i-i-s-snezhko222-клиенты",
           "inverse": null

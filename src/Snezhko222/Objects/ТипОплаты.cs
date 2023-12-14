@@ -12,6 +12,7 @@ namespace IIS.Snezhko222
 {
     using System;
     using System.Xml;
+    using ICSSoft.STORMNET;
     
     
     // *** Start programmer edit section *** (Using statements)
@@ -28,24 +29,28 @@ namespace IIS.Snezhko222
     public enum ТипОплаты
     {
         
+        // *** Start programmer edit section *** (ТипОплаты.3 CustomAttributes)
+
+        // *** End programmer edit section *** (ТипОплаты.3 CustomAttributes)
+        [Caption("Безналичный")]
+        3,
+        
         // *** Start programmer edit section *** (ТипОплаты.1 CustomAttributes)
 
         // *** End programmer edit section *** (ТипОплаты.1 CustomAttributes)
+        [Caption("Наличный")]
         1,
         
         // *** Start programmer edit section *** (ТипОплаты.2 CustomAttributes)
 
         // *** End programmer edit section *** (ТипОплаты.2 CustomAttributes)
+        [Caption("СБП")]
         2,
-        
-        // *** Start programmer edit section *** (ТипОплаты.3 CustomAttributes)
-
-        // *** End programmer edit section *** (ТипОплаты.3 CustomAttributes)
-        3,
         
         // *** Start programmer edit section *** (ТипОплаты.4 CustomAttributes)
 
         // *** End programmer edit section *** (ТипОплаты.4 CustomAttributes)
+        [Caption("Переводом")]
         4,
     }
 }
