@@ -28,7 +28,7 @@ export default Controller.extend({
             link: 'i-i-s-snezhko222-клиенты-l',
             caption: i18n.t('forms.application.sitemap.клиенты.i-i-s-snezhko222-клиенты-l.caption'),
             title: i18n.t('forms.application.sitemap.клиенты.i-i-s-snezhko222-клиенты-l.title'),
-            icon: 'briefcase',
+            icon: 'phone',
             children: null
           }]
         }, {
@@ -40,7 +40,7 @@ export default Controller.extend({
             link: 'i-i-s-snezhko222-услуга-l',
             caption: i18n.t('forms.application.sitemap.справочник-услуг.i-i-s-snezhko222-услуга-l.caption'),
             title: i18n.t('forms.application.sitemap.справочник-услуг.i-i-s-snezhko222-услуга-l.title'),
-            icon: 'building',
+            icon: 'archive',
             children: null
           }]
         }, {
@@ -52,13 +52,12 @@ export default Controller.extend({
             link: 'i-i-s-snezhko222-сотрудники-l',
             caption: i18n.t('forms.application.sitemap.сотрудники.i-i-s-snezhko222-сотрудники-l.caption'),
             title: i18n.t('forms.application.sitemap.сотрудники.i-i-s-snezhko222-сотрудники-l.title'),
-            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-snezhko222-должности-l',
             caption: i18n.t('forms.application.sitemap.сотрудники.i-i-s-snezhko222-должности-l.caption'),
             title: i18n.t('forms.application.sitemap.сотрудники.i-i-s-snezhko222-должности-l.title'),
-            icon: 'calendar',
+            icon: 'table',
             children: null
           }]
         }, {
@@ -70,7 +69,7 @@ export default Controller.extend({
             link: 'i-i-s-snezhko222-заказ-l',
             caption: i18n.t('forms.application.sitemap.заказы.i-i-s-snezhko222-заказ-l.caption'),
             title: i18n.t('forms.application.sitemap.заказы.i-i-s-snezhko222-заказ-l.title'),
-            icon: 'address card',
+            icon: 'list',
             children: null
           }]
         }, {
@@ -82,7 +81,7 @@ export default Controller.extend({
             link: 'i-i-s-snezhko222-детали-l',
             caption: i18n.t('forms.application.sitemap.справочник-детали.i-i-s-snezhko222-детали-l.caption'),
             title: i18n.t('forms.application.sitemap.справочник-детали.i-i-s-snezhko222-детали-l.title'),
-            icon: 'chart bar',
+            icon: 'chart line',
             children: null
           }]
         }, {
@@ -94,7 +93,7 @@ export default Controller.extend({
             link: 'i-i-s-snezhko222-бокс-l',
             caption: i18n.t('forms.application.sitemap.бокс.i-i-s-snezhko222-бокс-l.caption'),
             title: i18n.t('forms.application.sitemap.бокс.i-i-s-snezhko222-бокс-l.title'),
-            icon: 'chart line',
+            icon: 'building',
             children: null
           }]
         }
